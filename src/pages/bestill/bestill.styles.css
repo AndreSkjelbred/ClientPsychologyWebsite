@@ -1,0 +1,105 @@
+.form-fields {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.submit-form {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 100px;
+  background-color: rgb(0, 0, 0);
+  color: #edf8ef;
+  margin-bottom: 10vh;
+  border-radius: 10px;
+  border: #0f2413 solid;
+  height: 5vh;
+}
+
+.submit-form:hover {
+  background-color: rgb(42, 42, 42);
+}
+
+.map-form-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 37.5em) {
+  .map-form-container {
+    flex-direction: column-reverse;
+  }
+}
+
+.map-container {
+  width: 100%;
+  height: " calc(100vh - 77px)";
+}
+
+.map-wrap {
+  position: relative;
+  width: 30vw;
+  aspect-ratio: 1/1;
+  margin-bottom: 5vh;
+}
+
+@media screen and (max-width: 37.5em) {
+  .map-wrap {
+    width: 70vw;
+  }
+}
+
+.map {
+  position: absolute;
+  width: 100%;
+}
+
+.map-title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.map-title {
+  margin-bottom: 5vh;
+}
+
+@media screen and (max-width: 37.5em) {
+  .map-title {
+    font-size: 4rem;
+  }
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.hidden-modal {
+  display: none;
+}
+
+.modal {
+  position: sticky;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0rem 5rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.mld {
+  color: #0f2413;
+  font-size: 3rem;
+}

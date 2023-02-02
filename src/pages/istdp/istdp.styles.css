@@ -1,0 +1,13 @@
+.section-istdp {
+  padding: 9.6rem 0;
+}
+
+.istdp-text-box {
+  width: 60%;
+}
+
+@media screen and (max-width: 25em) {
+  .istdp-text-box {
+    width: 80%;
+  }
+}

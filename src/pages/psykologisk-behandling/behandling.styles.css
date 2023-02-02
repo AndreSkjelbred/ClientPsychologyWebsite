@@ -1,0 +1,90 @@
+.behandling-image-box {
+}
+
+.behandling {
+  padding: 9.6rem 0;
+}
+
+.behandling-image {
+  width: 100%;
+}
+
+.behandling-text-box {
+  width: 80%;
+}
+
+.behandling-image-box {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/10.67;
+}
+.behandling-image-box2 {
+  position: relative;
+  width: 80%;
+  aspect-ratio: 5/7.5;
+}
+
+@media screen and (max-width: 37.5em) {
+  .behandling-image-box {
+    width: 100%;
+  }
+}
+
+.behandling-paragraph {
+  color: #333;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 43.75em) {
+  .behandling-paragraph {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 25em) {
+  .behandling-paragraph {
+    font-size: 3rem;
+  }
+}
+
+.behandling-paragraph:not(:last-child) {
+  margin-bottom: 1.4rem;
+}
+
+.list-description {
+  color: #333;
+  line-height: 1.2;
+  font-weight: 300;
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+.behandling-list {
+  padding: 1rem 2rem;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.behandling-item {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 4.8rem;
+}
+
+.behandling-item:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+.behandling-image-2 {
+  height: 60rem;
+  width: auto;
+}
+
+@media screen and (max-width: 37.5em) {
+  .behandling-image-2 {
+    width: 80%;
+    height: auto;
+  }
+}

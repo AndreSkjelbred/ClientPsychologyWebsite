@@ -1,0 +1,45 @@
+.footer {
+  background-color: #0f2413;
+  padding: 10rem 0;
+  font-size: 1.4rem;
+  color: #ddd;
+
+  text-align: center;
+}
+
+.footer-logo {
+  width: 15rem;
+  height: auto;
+}
+
+.company-name {
+  border-top: solid 1px #999;
+  padding-top: 2rem;
+  display: inline-block;
+}
+
+.company-name-text {
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 1.2px;
+}
+
+.contacts {
+  border-top: solid 1px #999;
+  padding-top: 2rem;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-logo-box {
+  position: relative;
+  width: 15rem;
+  aspect-ratio: 227/91;
+}
+
+.footer-logo-container {
+  display: flex;
+  justify-content: center;
+}

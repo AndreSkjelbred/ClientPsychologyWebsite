@@ -1,0 +1,9 @@
+.veiledning {
+  padding: 9.6rem 0;
+}
+
+.veiledning-image-box {
+  position: relative;
+  aspect-ratio: 16/10.67;
+  width: 100%;
+}

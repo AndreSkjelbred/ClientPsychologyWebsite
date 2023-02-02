@@ -1,0 +1,88 @@
+.nav {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 3rem;
+}
+
+@media screen and (max-width: 56.25em) {
+  .nav {
+    padding: 3rem 1rem;
+  }
+}
+
+.logo-box {
+  position: relative;
+  height: 10rem;
+  justify-self: flex-start;
+  aspect-ratio: 227/91;
+}
+
+.nav-items-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: calc(95% - 10rem);
+  align-items: center;
+}
+
+@media screen and (max-width: 56.25em) {
+  .logo-box {
+    height: 5rem;
+  }
+}
+
+@media screen and (max-width: 18.75em) {
+  .logo-box {
+    display: none;
+  }
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  list-style: none;
+}
+
+@media screen and (max-width: 56.25em) {
+  .nav-list {
+    gap: 4rem;
+  }
+}
+
+.btn:link,
+.btn:visited {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #378345;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #fff;
+  padding: 2rem 3rem;
+
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+@media screen and (max-width: 56.25em) {
+  .btn:link,
+  .btn:visited {
+    font-size: 1.8rem;
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 50em) {
+  .btn:link,
+  .btn:visited {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #1f4926;
+}

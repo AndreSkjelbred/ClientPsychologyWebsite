@@ -1,0 +1,30 @@
+.nav-items {
+  display: inline-block;
+}
+
+.nav-links {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #333;
+
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 56.25em) {
+  .nav-links {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  .nav-links {
+    font-size: 3rem;
+  }
+}
+
+.nav-links:hover {
+  color: #367f43;
+}
