@@ -2,19 +2,23 @@ import NavBar from "../../components/navBar/navBar.component";
 import Menu from "../../components/menu/menu.component";
 import Footer from "../../components/footer/footer.component";
 import { Fragment } from "react";
-import { Helmet } from "react-helmet-async";
+import Head from "next/head";
 
 function ISTDP() {
   return (
     <Fragment>
-      {/* <Helmet>
-        <title>ISTDP - Anna Skjelbred</title>
+      <Head>
+        <title>ISTDP - Trondheim Psykolog</title>
         <meta
           name='description'
-          content='Hva er ISTDP? Her er informasjon om ferdigheter til psykolog i Trondheim'
+          content='Psykolog i Trondheim. Kontakt for profesjonell behandling av Anna Skjelbred. Jeg tilbyr psykologisk behandling og veiledning.'
         />
-        <link rel='canonical' href='/istdp' />
-      </Helmet> */}
+        <meta
+          name='keywords'
+          content='trondheim psykolog, psykolog,trondheim,behandling,istdp, anna skjelbred, terapi'
+        ></meta>
+        <link rel='canonical' href='/' />
+      </Head>
       <div>
         <NavBar />
         <Menu />

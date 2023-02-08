@@ -6,7 +6,7 @@ import React, { Fragment, useRef } from "react";
 
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
-import { Helmet } from "react-helmet-async";
+import Head from "next/head";
 import Image from "next/image";
 
 function BestillTime() {
@@ -30,14 +30,18 @@ function BestillTime() {
 
   return (
     <Fragment>
-      {/* <Helmet>
-        <title>Bestill Time</title>
+      <Head>
+        <title>Bestill Time - Trondheim Psykolog</title>
         <meta
           name='description'
-          content='Bestill time til psykolog i Trondheim for behandling.'
+          content='Psykolog i Trondheim. Kontakt for profesjonell behandling av Anna Skjelbred. Jeg tilbyr psykologisk behandling og veiledning.'
         />
-        <link rel='canonical' href='/bestill' />
-      </Helmet> */}
+        <meta
+          name='keywords'
+          content='trondheim psykolog, psykolog,trondheim,behandling,istdp, anna skjelbred, terapi'
+        ></meta>
+        <link rel='canonical' href='/' />
+      </Head>
       <div>
         <NavBar bestill={true} />
         <Menu />

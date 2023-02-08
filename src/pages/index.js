@@ -3,8 +3,9 @@ import NavBar from "../components/navBar/navBar.component";
 import Menu from "../components/menu/menu.component";
 import Footer from "../components/footer/footer.component";
 import Link from "next/link";
-import { Helmet } from "react-helmet-async";
+
 import Image from "next/image";
+import Head from "next/head";
 
 const HOME_NAV_BAR_ITEMS = [
   { title: "Om meg", link: "#", index: 1 },
@@ -14,6 +15,18 @@ const HOME_NAV_BAR_ITEMS = [
 function Home() {
   return (
     <Fragment>
+      <Head>
+        <title>Trondheim Psykolog</title>
+        <meta
+          name='description'
+          content='Psykolog i Trondheim. Kontakt for profesjonell behandling av Anna Skjelbred. Jeg tilbyr psykologisk behandling og veiledning.'
+        />
+        <meta
+          name='keywords'
+          content='trondheim psykolog, psykolog,trondheim,behandling,istdp, anna skjelbred, terapi'
+        ></meta>
+        <link rel='canonical' href='/' />
+      </Head>
       {/*  <Helmet>
     <title>Trondheim Psykolog</title>
     <meta

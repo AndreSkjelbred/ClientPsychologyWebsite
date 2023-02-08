@@ -3,17 +3,23 @@ import { Fragment } from "react";
 import Image from "next/image";
 import NavBar from "@/components/navBar/navBar.component";
 import Menu from "@/components/menu/menu.component";
+import Head from "next/head";
+
 function Behandling() {
   return (
     <Fragment>
-      {/*  <Helmet>
-        <title>Psykologisk Behandling</title>
+      <Head>
+        <title>Psykologisk Behandling - Trondheim Psykolog</title>
         <meta
           name='description'
-          content='psykologisk behandling av psykolog i trondheim'
+          content='Psykolog i Trondheim. Kontakt for profesjonell behandling av Anna Skjelbred. Jeg tilbyr psykologisk behandling og veiledning.'
         />
-        <link rel='canonical' href='/psykologisk-behandling' />
-      </Helmet> */}
+        <meta
+          name='keywords'
+          content='trondheim psykolog, psykolog,trondheim,behandling,istdp, anna skjelbred, terapi'
+        ></meta>
+        <link rel='canonical' href='/' />
+      </Head>
       <div>
         <NavBar /> <Menu />
         <section className='behandling'>
