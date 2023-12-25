@@ -17,7 +17,9 @@ function Footer() {
         <div className='company-name'>
           <div className='company-name-text'>
             &copy;Skjelbred Psykologi Consulting
-          </div>
+          </div><a href="https://exotechweb.com" className='company-name-text'>
+            Made by ExoTechWeb
+          </a>
         </div>
         <div className='contacts'>
           <p className='phone-number'>Telefon: 950 54 723</p>
