@@ -1,16 +1,16 @@
-import { Fragment } from "react";
-import NavBar from "../components/navBar/navBar.component";
-import Menu from "../components/menu/menu.component";
-import Footer from "../components/footer/footer.component";
-import Link from "next/link";
+import { Fragment } from 'react'
+import NavBar from '../components/navBar/navBar.component'
+import Menu from '../components/menu/menu.component'
+import Footer from '../components/footer/footer.component'
+import Link from 'next/link'
 
-import Image from "next/image";
-import Head from "next/head";
+import Image from 'next/image'
+import Head from 'next/head'
 
 const HOME_NAV_BAR_ITEMS = [
-  { title: "Om meg", link: "#", index: 1 },
-  { title: "Priser", link: "#", index: 2 },
-];
+  { title: 'Om meg', link: '#', index: 1 },
+  { title: 'Priser', link: '#', index: 2 },
+]
 
 function Home() {
   return (
@@ -86,14 +86,14 @@ function Home() {
               <div className='card-details'>
                 <ul className='details-list'>
                   <li className='details-item'>Varighet:</li>
-                  <li className='details-item'>50 min</li>
+                  <li className='details-item'>60 min</li>
                 </ul>
               </div>
             </div>
             <div className='card-side card-side-back card-side-back-1'>
               <div className='card-cta'>
                 <div className='card-price-box'>
-                  <p className='card-price-value'> kr 1.400,-</p>
+                  <p className='card-price-value'> kr 1.550,-</p>
                 </div>
                 <Link href='/bestill' className='btn-white'>
                   Bestill time nå
@@ -120,7 +120,7 @@ function Home() {
             <div className='card-side card-side-back card-side-back-3'>
               <div className='card-cta'>
                 <div className='card-price-box'>
-                  <p className='card-price-value'> kr 2.300,-</p>
+                  <p className='card-price-value'> kr 2.200,-</p>
                 </div>
                 <Link href='/bestill' className='btn-white'>
                   Bestill time nå
@@ -139,7 +139,7 @@ function Home() {
       </section>
       <Footer />
     </Fragment>
-  );
+  )
 }
 
-export default Home;
+export default Home

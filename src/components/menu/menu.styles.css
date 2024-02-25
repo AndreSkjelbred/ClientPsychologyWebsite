@@ -199,7 +199,7 @@
 
 .navigation-icon::before,
 .navigation-icon::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   transition: all 0.2s;
@@ -241,4 +241,9 @@
 
 .navigation-button:hover .nav-icon-open::before {
   top: 0rem;
+}
+
+.text-align-left {
+  margin-left: 5rem;
+  text-align: left;
 }
